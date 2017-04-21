@@ -1,0 +1,43 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-21 13:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: inc/add-to-cart.php:12
+msgid "Pre-order now"
+msgstr ""
+
+#: inc/product-field.php:17
+msgid "PreOrder Date"
+msgstr ""
+
+#: inc/product-summary-info.php:13
+msgid "Available from"
+msgstr ""
+
+#. Name of the plugin
+msgid "WooCommerce Pre-Order Plugin"
+msgstr ""
+
+#. Description of the plugin
+msgid "Pre-Sale Plugin for WooCommerce"
+msgstr ""
+
+#. Author of the plugin
+msgid "derweili"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://derweili.de"
+msgstr ""

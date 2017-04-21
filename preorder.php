@@ -4,7 +4,7 @@
  * @version 1.6
  */
 /*
-Plugin Name: WooCommerce PreSale Plugin
+Plugin Name: WooCommerce Pre-Order Plugin
 Plugin URI: 
 Description: Pre-Sale Plugin for WooCommerce
 Author: derweili
@@ -16,7 +16,7 @@ Author URI: http://derweili.de
 /**
 * Packstation Plugin Class
 */
-class DerweiliWooCommercePreSalePlugin
+class DerweiliWooCommercePreOrderPlugin
 {
 	
 	/**
@@ -25,20 +25,22 @@ class DerweiliWooCommercePreSalePlugin
 	*/
 	function __construct()
 	{
-		/*add_action( 'init', array(&$this, 'load_textdomain' ) );
-		
+		add_action( 'init', array(&$this, 'load_textdomain' ) );
+		/*
 		define('PACKSTATION_DIR_URI', plugin_dir_url( __FILE__ ) );*/
 		$this->load_other_dependencies();
 	//	$this->enqueue_scripts();*/
 	}
 	private function load_other_dependencies(){
+		include "inc/helper-functions.php";
 		include "inc/product-field.php";
 		include "inc/add-to-cart.php";
+		include "inc/product-summary-info.php";
 		
 
 	}
 	public function load_textdomain() {
-	//	load_plugin_textdomain( 'packstation', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
+		load_plugin_textdomain( 'derweili-preorder', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
 	}
 	public function enqueue_scripts() {
 	/*	add_action( 'wp_enqueue_scripts', function(){
@@ -46,6 +48,6 @@ class DerweiliWooCommercePreSalePlugin
 
 	}
 }
-new DerweiliWooCommercePreSalePlugin();
+new DerweiliWooCommercePreOrderPlugin();
 
 ?>
