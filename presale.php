@@ -42,7 +42,7 @@ class DerweiliWooCommercePreSalePlugin
 	}
 	public function enqueue_scripts() {
 	/*	add_action( 'wp_enqueue_scripts', function(){
-    		//wp_register_script('packstation-conditional-fields', plugins_url('assets/js/conditional-fields.js', __FILE__), array('jquery'));
+    		//wp_register_script('packstation-conditional-fields', plugins_url('assets/js/conditional-fields.js', __FILE__), array('jquery'));*/
 
 	}
 }
